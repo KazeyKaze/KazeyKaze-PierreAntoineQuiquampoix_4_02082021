@@ -13,6 +13,10 @@ button {
     outline: none!important;
 }
 
+li::marker{
+    color: black;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -133,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -324,8 +328,9 @@ a:hover {
 
 .nav > li {
     float: left;
-    margin-top: 4px;
+    margin-top: -15px;
     font-size: 16px;
+    margin-right: 35px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -366,7 +371,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        left: 50%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -651,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -736,7 +741,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -775,12 +780,13 @@ h4 {
 }
 
 .tc-white {
-    color: rgb(250, 250, 6)!important;
+    color: rgba(255, 255, 255, 0.979)!important;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: white;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -844,7 +850,7 @@ h4 {
         max-width: 80%
     }
     .nav-center.navbar .nav {
-        max-width: 100%
+        max-width: 10%
     }
 }
 
