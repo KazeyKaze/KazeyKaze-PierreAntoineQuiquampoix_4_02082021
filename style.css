@@ -291,6 +291,10 @@ a:hover {
     font-size: 32px;
 }
 
+.img-txt{
+    width: 100%;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
