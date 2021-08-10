@@ -11,10 +11,47 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: underline;
+}
+
+.para-1{
+    font-size: 25px;
+    padding: 30px 0 30px 0;
+    width: 60%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.para-2{
+    font-size: 20px;
+    padding: 30px 0 0 0;
+    font-weight: 400;
+    width: 60%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.para-3{
+    font-size: 16px;
+    margin: -5px 0 30px 0;
+    font-style: italic;
+}
+
+.para-4{
+    font-size: 25px;
+    padding: 0 0 0 0;
+    font-weight: 400;
+    width: 60%;
+    justify-content: center;
+    display: inline-block;
 }
 
 li::marker{
     color: black;
+}
+
+ul {
+    list-style-type: none;
 }
 
 a:hover {
@@ -794,6 +831,7 @@ h4 {
 .btn-atomic-tangerine {
     background: white;
     color: black!important;
+    text-decoration: none;
 }
 
 .btn-atomic-tangerine:hover {
